@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,700&family=Raleway:ital,wght@0,400;1,700&display=swap');
+
+body {
+    font-family: 'JetBrains Mono';
+    background-color: #212121;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    background: linear-gradient(90deg, #FFC107, #FFA000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 { font-size: 300%; }
+h2 { font-size: 200%; }
+
+.container {
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0 1;
+    list-style: none;   
+}
+
+ul li::before {
+    content: ">";
+    color: #FFC107;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.25em;
+    font-size: 100%;
+    margin-left: -1em;
+}
+
+a {
+    color: #536DFE;
+}
+img {
+    position: absolute;
+    border-radius: 50%;
+    height: 70px;
+    top: 25px;
+    right: 200px;
+}
