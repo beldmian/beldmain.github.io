@@ -10,6 +10,7 @@ h1, h2, h3, h4 {
     font-family: 'Raleway';
     font-weight: 400;
     background: linear-gradient(90deg, #FFC107, #FFA000);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
